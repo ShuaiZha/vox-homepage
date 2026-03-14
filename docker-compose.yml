@@ -1,5 +1,3 @@
-version: "3.2"
-
 services:
   vox-homepage:
     image: 'yexingmiren/vox-homepage:latest'
