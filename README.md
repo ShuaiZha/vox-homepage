@@ -1,14 +1,6 @@
-# AdaVox Homepage
+# vox-homepage
 
-A beautiful, lightweight homepage for your server, NAS, or browser.
-
-## Features
-
-- 🎨 Clean and modern UI
-- 📱 Responsive design
-- 🔧 Easy configuration
-- 🚀 Lightweight (78MB)
-- 🐳 Docker support
+homepage
 
 ## Quick Start
 
