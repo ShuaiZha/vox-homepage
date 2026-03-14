@@ -182,15 +182,17 @@ func CommandRun() {
 }
 
 func Logo() {
-	fmt.Println("     ____            ___                __")
-	fmt.Println("    / __/_ _____    / _ \\___ ____  ___ / /")
-	fmt.Println("   _\\ \\/ // / _ \\  / ___/ _ `/ _ \\/ -_) / ")
-	fmt.Println("  /___/\\_,_/_//_/ /_/   \\_,_/_//_/\\__/_/  ")
+		fmt.Println("                            .__                                                       ")
+	fmt.Println("___  _________  ___         │  │__   ____   _____   ____ ___________     ____   ____  ")
+	fmt.Println("╲  ╲╱ ╱  _ ╲  ╲╱  ╱  ______ │  │  ╲ ╱  _ ╲ ╱     ╲_╱ __ ╲╲____ ╲__  ╲   ╱ ___╲_╱ __ ╲ ")
+	fmt.Println(" ╲   (  <_> >    <  ╱_____╱ │   Y  (  <_> )  Y Y  ╲  ___╱│  │_> > __ ╲_╱ ╱_╱  >  ___╱ ")
+	fmt.Println("  ╲_╱ ╲____╱__╱╲_ ╲         │___│  ╱╲____╱│__│_│  ╱╲___  >   __(____  ╱╲___  ╱ ╲___  >")
+	fmt.Println("                 ╲╱              ╲╱             ╲╱     ╲╱│__│       ╲╱╱_____╱      ╲╱ ")
 	fmt.Println("")
 
 	versionInfo := cmn.GetSysVersionInfo()
 	fmt.Println("Version:", versionInfo.Version)
-	fmt.Println("Welcome to the homepage.")
+	fmt.Println("Welcome to the vox-homepage.")
 	fmt.Println("Project address:", "https://github.com/ShuaiZha/vox-homepage")
 
 }
